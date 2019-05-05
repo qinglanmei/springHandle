@@ -1,5 +1,6 @@
-package com.qinglanmei.spring;
+package com.qinglanmei.spring.IOC;
 
+import com.qinglanmei.spring.IOC.Helloworld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -11,7 +12,9 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  **/
 public class MainApp {
     public static void main(String[] args) {
-
+        /**
+         * Spring BeanFactory容器
+         */
         /*
         第一步是我们使用框架 API ClassPathXmlApplicationContext() 来创建应用程序的上下文。
         这个 API 加载 beans 的配置文件并最终基于所提供的 API，它处理创建并初始化所有的对象，即在配置文件中提到的 beans。
@@ -33,5 +36,8 @@ public class MainApp {
         你可以使用标签来传递在创建对象时使用不同变量的值。
          */
         hw.getMessage();
+
+
+
     }
 }

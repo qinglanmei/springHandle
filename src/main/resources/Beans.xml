@@ -3,10 +3,43 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
+    >
 
-    <bean id="helloWorld" class="com.qinglanmei.spring.Helloworld">
-        <property name="message" value="Hello World!"/>
+
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld">-->
+        <!--<property name="message" value="Hello World!"/>-->
+    <!--</bean>-->
+
+    <!--singleton 作用域示例-->
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld" scope="singleton">-->
+    <!--</bean>-->
+
+    <!--Spring bean生命周期-->
+    <!--<bean id="helloWorld"-->
+          <!--class="com.qinglanmei.spring.IOC.Helloworld"-->
+    <!--&gt;-->
+        <!--<property name="message" value="Hello World!"/>-->
+    <!--</bean>-->
+
+    <!--Spring——Bean 后置处理器-->
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld"-->
+          <!--init-method="init" destroy-method="destroy">-->
+        <!--<property name="message" value="Hello World!"/>-->
+    <!--</bean>-->
+
+    <!--<bean class="com.qinglanmei.spring.IOC.InitHelloWorld" />-->
+
+    <!--Spring Bean 定义继承-->
+    <bean id="helloWorld" class="com.qinglanmei.spring.IOC.HelloWorld2">
+        <property name="message1" value="Hello World!"/>
+        <property name="message2" value="Hello Second World!"/>
     </bean>
+
+    <bean id="helloIndia" class="com.qinglanmei.spring.IOC.HelloIndia" parent="helloWorld">
+        <property name="message1" value="Hello India!"/>
+        <property name="message3" value="Namaste India!"/>
+    </bean>
+
 
 </beans>
