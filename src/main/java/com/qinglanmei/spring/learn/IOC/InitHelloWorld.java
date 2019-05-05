@@ -1,4 +1,4 @@
-package com.qinglanmei.spring.IOC;
+package com.qinglanmei.spring.learn.IOC;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

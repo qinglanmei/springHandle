@@ -1,6 +1,5 @@
-package com.qinglanmei.spring.IOC;
+package com.qinglanmei.spring.learn.IOC;
 
-import com.qinglanmei.spring.IOC.Helloworld;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

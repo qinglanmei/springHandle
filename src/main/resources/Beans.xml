@@ -7,36 +7,36 @@
     >
 
 
-    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld">-->
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.learn.IOC.Helloworld">-->
         <!--<property name="message" value="Hello World!"/>-->
     <!--</bean>-->
 
     <!--singleton 作用域示例-->
-    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld" scope="singleton">-->
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.learn.IOC.Helloworld" scope="singleton">-->
     <!--</bean>-->
 
     <!--Spring bean生命周期-->
     <!--<bean id="helloWorld"-->
-          <!--class="com.qinglanmei.spring.IOC.Helloworld"-->
+          <!--class="com.qinglanmei.spring.learn.IOC.Helloworld"-->
     <!--&gt;-->
         <!--<property name="message" value="Hello World!"/>-->
     <!--</bean>-->
 
     <!--Spring——Bean 后置处理器-->
-    <!--<bean id="helloWorld" class="com.qinglanmei.spring.IOC.Helloworld"-->
+    <!--<bean id="helloWorld" class="com.qinglanmei.spring.learn.IOC.Helloworld"-->
           <!--init-method="init" destroy-method="destroy">-->
         <!--<property name="message" value="Hello World!"/>-->
     <!--</bean>-->
 
-    <!--<bean class="com.qinglanmei.spring.IOC.InitHelloWorld" />-->
+    <!--<bean class="com.qinglanmei.spring.learn.IOC.InitHelloWorld" />-->
 
     <!--Spring Bean 定义继承-->
-    <bean id="helloWorld" class="com.qinglanmei.spring.IOC.HelloWorld2">
+    <bean id="helloWorld" class="com.qinglanmei.spring.learn.IOC.HelloWorld2">
         <property name="message1" value="Hello World!"/>
         <property name="message2" value="Hello Second World!"/>
     </bean>
 
-    <bean id="helloIndia" class="com.qinglanmei.spring.IOC.HelloIndia" parent="helloWorld">
+    <bean id="helloIndia" class="com.qinglanmei.spring.learn.IOC.HelloIndia" parent="helloWorld">
         <property name="message1" value="Hello India!"/>
         <property name="message3" value="Namaste India!"/>
     </bean>

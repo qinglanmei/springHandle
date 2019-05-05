@@ -1,4 +1,4 @@
-package com.qinglanmei.spring.IOC;
+package com.qinglanmei.spring.learn.IOC;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;

@@ -74,3 +74,67 @@ F:.
     │                  
     └─generated-sources
         └─annotations
+文件夹 PATH 列表
+卷序列号为 E2F9-1F50
+F:.
+│  .gitignore
+│  pom.xml
+│  README.md
+│  springHandle.iml
+│  
+├─.idea
+│      compiler.xml
+│      encodings.xml
+│      misc.xml
+│      uiDesigner.xml
+│      vcs.xml
+│      workspace.xml
+│      
+├─learn
+│      01_SpringIOC容器.md
+│      02_Spring依赖注入.md
+│      03_SpringBeans自动分配.md
+│      04_Spring基于注解的配置.md
+│      05_Spring框架的AOP.md
+│      06_SpringJDBC框架.md
+│      07_Spring事务管理.md
+│      08_SpringWebMVC框架.md
+│      tree.txt
+│      
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─qinglanmei
+│  │  │          └─spring
+│  │  │              └─learn
+│  │  │                  ├─DI
+│  │  │                  └─IOC
+│  │  │                          ApplicationContextMain.java
+│  │  │                          HelloIndia.java
+│  │  │                          Helloworld.java
+│  │  │                          HelloWorld2.java
+│  │  │                          InitHelloWorld.java
+│  │  │                          MainApp.java
+│  │  │                          
+│  │  └─resources
+│  │          Beans.xml
+│  │          
+│  └─test
+│      └─java
+└─target
+    ├─classes
+    │  │  Beans.xml
+    │  │  
+    │  └─com
+    │      └─qinglanmei
+    │          └─spring
+    │                  ApplicationContextMain.class
+    │                  HelloIndia.class
+    │                  Helloworld.class
+    │                  HelloWorld2.class
+    │                  InitHelloWorld.class
+    │                  MainApp.class
+    │                  
+    └─generated-sources
+        └─annotations
