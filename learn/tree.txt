@@ -1,0 +1,76 @@
+文件夹 PATH 列表
+卷序列号为 E2F9-1F50
+F:.
+├─.idea
+├─learn
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─qinglanmei
+│  │  │          └─spring
+│  │  │              └─IOC
+│  │  └─resources
+│  └─test
+│      └─java
+└─target
+    ├─classes
+    │  └─com
+    │      └─qinglanmei
+    │          └─spring
+    └─generated-sources
+        └─annotations
+文件夹 PATH 列表
+卷序列号为 E2F9-1F50
+F:.
+│  .gitignore
+│  pom.xml
+│  README.md
+│  springHandle.iml
+│  
+├─.idea
+│      compiler.xml
+│      misc.xml
+│      uiDesigner.xml
+│      vcs.xml
+│      workspace.xml
+│      
+├─learn
+│      SpringIOC容器.md
+│      tree.txt
+│      
+├─src
+│  ├─main
+│  │  ├─java
+│  │  │  └─com
+│  │  │      └─qinglanmei
+│  │  │          └─spring
+│  │  │              └─IOC
+│  │  │                      ApplicationContextMain.java
+│  │  │                      HelloIndia.java
+│  │  │                      Helloworld.java
+│  │  │                      HelloWorld2.java
+│  │  │                      InitHelloWorld.java
+│  │  │                      MainApp.java
+│  │  │                      
+│  │  └─resources
+│  │          Beans.xml
+│  │          
+│  └─test
+│      └─java
+└─target
+    ├─classes
+    │  │  Beans.xml
+    │  │  
+    │  └─com
+    │      └─qinglanmei
+    │          └─spring
+    │                  ApplicationContextMain.class
+    │                  HelloIndia.class
+    │                  Helloworld.class
+    │                  HelloWorld2.class
+    │                  InitHelloWorld.class
+    │                  MainApp.class
+    │                  
+    └─generated-sources
+        └─annotations
