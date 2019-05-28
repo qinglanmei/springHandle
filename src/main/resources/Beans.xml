@@ -35,11 +35,16 @@
         <property name="message1" value="Hello World!"/>
         <property name="message2" value="Hello Second World!"/>
     </bean>
-
     <bean id="helloIndia" class="com.qinglanmei.spring.learn.IOC.HelloIndia" parent="helloWorld">
         <property name="message1" value="Hello India!"/>
         <property name="message3" value="Namaste India!"/>
     </bean>
+    <!-- Definition for textEditor bean -->
+    <bean id="textEditor" class="com.qinglanmei.spring.learn.DI.TextEditor">
+        <constructor-arg ref="spellChecker"/>
+    </bean>
 
-
+    <!-- Definition for spellChecker bean -->
+    <bean id="spellChecker" class="com.qinglanmei.spring.learn.DI.SpellChecker">
+    </bean>
 </beans>
